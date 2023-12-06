@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer Demo",
+    "version": "1.0",
+    "description": "Demo",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "web_accessible_resources": [{
+        "resources": [
+            "background.js"
+        ],
+        "matches": ["*://*/*"]
+    }]
+}

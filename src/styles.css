@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaa0604f;
+    box-sizing: border-box;
+}
+
+.extension-container{
+    width: 500px;
+    background-color: #eaa0604f;
+}
+
+.header{
+    text-align: center;
+    padding: 40px 0;
+    color: salmon;
+    font-weight: 600;
+    font-family: Century Gothic;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.title{
+    padding-left: 15px;
+    font-family: Century Gothic;
+}
+
+.timer{
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+.heading{
+    font-size: 35px;
+}
+
+.lighterRed{
+    background-color: lightcoral;
+}
+
+.button-41 {
+   /*background-color: deepskyblue;*/
+   /*background-image: linear-gradient(-180deg, #00D775, #00BD68);*/
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+   color: white;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+   line-height: 34px;
+   outline: 0;
+   overflow: hidden;
+   padding: 0 10px;
+   pointer-events: auto;
+   position: relative;
+   text-align: center;
+   touch-action: manipulation;
+   user-select: none;
+   -webkit-user-select: none;
+   vertical-align: top;
+   white-space: nowrap;
+   width: 80px;
+   z-index: 9;
+   border: 0;
+}
+
+.red-colour{
+    background: lightcoral;
+}
+
+.blue-colour{
+    background: deepskyblue;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+
+.text{
+    color: peru;
+    font-weight: 600;
+}
+
+.timer-font-size{
+    font-size: 85px;
+}
+
+.title-font-size{
+    font-size: 25px;
+    padding-top: 55px;
+}
